@@ -1,3 +1,5 @@
+import '../assets/css/register.css';
+
 export const Login = () => {
     return (
         <div className="form">
