@@ -17,18 +17,6 @@ export const Login = () => {
                             <input type="text" id="lname" name="lname" className="input"/>
                         </div>
                     </div>
-                    <div className="email">
-                        <label htmlFor="email">Email</label>
-                        <input type="email" id="email" name="email" className="input"/>
-                    </div>
-                    <div className="pw">
-                        <label htmlFor="pw">Password</label>
-                        <input type="password" id="pw" name="pw" className="input"/>
-                    </div>
-                    <div className="stay">
-                        <input type="checkbox" name="sty" id="sty"  />
-                        <label htmlFor="sty" id="stas" >Stay sign in</label>
-                    </div>
                     <div className="button">
                         <button>Create</button>
                     </div>
