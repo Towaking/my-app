@@ -48,27 +48,27 @@ export const Register = () => {
             </div>
             <div className="right">
                 <label className="title">Register Account</label>
-                <form>
+                <form className="form-box container">
                     <div className="name">
-                        <div className="fname">
-                            <label htmlFor="fname">First Name</label>
-                            <input type="text" id="fname" name="fname" className="input" required/>
+                        <div className="input-box">
+                            <input type="text" required />
+                            <label htmlFor="">First Name</label>
                         </div>
-                        <div className="lname">
-                            <label htmlFor="lname">Last Name</label>
-                            <input type="text" id="lname" name="lname" className="input" required/>
+                        <div className="input-box">
+                            <input type="text" required/>
+                            <label htmlFor="">Last Name</label>
                         </div>
                     </div>
-                    <div className="email">
-                        <label htmlFor="email">Email</label>
-                        <input type="email" id="email" name="email" className="input" required/>
+                    <div className="input-box">
+                        <input type="text" required />
+                        <label htmlFor="">Email</label>
                     </div>
-                    <div className="pw">
-                        <label htmlFor="pw">Password</label>
-                        <input type="password" id="pw" name="pw" className="input" required/>
+                    <div className="input-box">
+                        <input type="password" required />
+                        <label htmlFor=""> Password</label>
                     </div>
-                    <div className="button">
-                        <button>Create</button>
+                    <div className="submit">
+                        <button type="submit">Submit</button>
                     </div>
                 </form>
             </div>
